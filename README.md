@@ -6,8 +6,6 @@ The project includes a multi-level class hierarchy where a parent class is exten
 
 This assignment focuses on writing clean, structured PHP code while following proper development practices such as documentation, type hints, and organized project files.
 
----
-
 ## Features 🎯
 
 Class Hierarchy  
@@ -28,8 +26,6 @@ Uses `spl_autoload_register()` to automatically load class files.
 Clean Documentation  
 PHPDoc comments are included to document classes, properties, and methods.
 
----
-
 ## Technologies Used 🤖
 
 PHP
@@ -41,8 +37,6 @@ Traits
 PHPDoc Documentation
 
 Git & GitHub
-
----
 
 ## How It Works ⚙️
 
@@ -64,8 +58,6 @@ The `index.php` file uses `spl_autoload_register()` to automatically load class 
 Execution  
 Objects are created in `index.php` and their methods are executed to demonstrate their behaviors.
 
----
-
 ## GitHub Workflow 📄
 
 The project is uploaded to GitHub for version control and review.
@@ -73,8 +65,6 @@ The project is uploaded to GitHub for version control and review.
 The instructor account **xp-bar** is added as a contributor so the assignment can be evaluated.
 
 All project files, documentation, and the README are included in the repository.
-
----
 
 ## Installation 🧭
 
@@ -85,13 +75,9 @@ To run the project locally:
 - Open the project in a local PHP environment
 - Run the `index.php` file in your browser or local server
 
----
-
 ## Conclusion 🏁
 
 This assignment demonstrates the use of Object Oriented Programming concepts in PHP, including inheritance, traits, reusable methods, and organized class structures. The project shows how complex systems can be built using smaller, related components while maintaining clean and maintainable code.
-
----
 
 ## Contact 📫
 
