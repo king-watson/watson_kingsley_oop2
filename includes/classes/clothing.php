@@ -2,10 +2,10 @@
 
 namespace OOP2;
 
-// Level One
+// Clothing = Level 1. Root of the project
 
-class Clothing  {
-   
+class Clothing
+{
     protected string $name;
     protected string $colour;
     protected string $size;
@@ -32,13 +32,18 @@ class Clothing  {
         return $this->size;
     }
 
-    public function displayInfo(): string
+    public function wear(): string
     {
-        return 
-        "<div>
-            <p>Name: " . $this->getName() . "</p>
-            <p>Colour: " . $this->getColour() . "</p>
-            <p>Size: " . $this->getSize() . "</p>
-        </div>";
+        return "You can wear the " . $this->getName() . "!";
+    }
+
+    public function fold(): string
+    {
+        return "Fold the " . $this->getName() . " neatly!";
+    }
+
+    public function describe(): string
+    {
+    return "This is a " . $this->getColour() . " " . $this->getName() . " in size " . $this->getSize() . "!";
     }
 }
