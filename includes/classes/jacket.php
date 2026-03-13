@@ -6,6 +6,9 @@ namespace OOP2;
 
 class Jacket extends Tops
 {
+    
+    use HasPockets; // this is where the trait is held 
+
     public function __construct()
     {
         $name = "Jacket";
