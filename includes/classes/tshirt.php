@@ -2,7 +2,7 @@
 
 namespace OOP2;
 
-// T-Shirt = Level Three. Extends the Tops
+// T-Shirt = Level Three. Extends from the tops category
 
 class TShirt extends Tops
 {
