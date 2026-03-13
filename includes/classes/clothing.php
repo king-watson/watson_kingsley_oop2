@@ -2,16 +2,18 @@
 
 namespace OOP2;
 
+// Level One
+
 class Clothing  {
    
     protected string $name;
-    protected string $color;
+    protected string $colour;
     protected string $size;
 
-    public function __construct(string $name, string $color, string $size)
+    public function __construct(string $name, string $colour, string $size)
     {
         $this->name = $name;
-        $this->color = $color;
+        $this->colour = $colour;
         $this->size = $size;
     }
 
@@ -20,9 +22,9 @@ class Clothing  {
         return $this->name;
     }
 
-    public function getColor(): string
+    public function getColour(): string
     {
-        return $this->color;
+        return $this->colour;
     }
 
     public function getSize(): string
@@ -35,7 +37,7 @@ class Clothing  {
         return 
         "<div>
             <p>Name: " . $this->getName() . "</p>
-            <p>Color: " . $this->getColor() . "</p>
+            <p>Colour: " . $this->getColour() . "</p>
             <p>Size: " . $this->getSize() . "</p>
         </div>";
     }
