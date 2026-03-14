@@ -1,4 +1,4 @@
-# OOP Class Hierarchy Project 🧩
+# OOP 2 Assignment MMED-3014 🧩
 
 This project demonstrates the use of Object Oriented Programming (OOP) principles in PHP by creating a hierarchy of related classes. The goal of the assignment is to practice structuring code using inheritance, properties, methods, and traits while keeping the project organized and well documented.
 
