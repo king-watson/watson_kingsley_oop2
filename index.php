@@ -2,22 +2,22 @@
 spl_autoload_register(function ($class) {
     $class = str_replace('OOP2\\', '', $class);
     $class = str_replace("\\", DIRECTORY_SEPARATOR, $class);
-    $filepath = __DIR__ . '/includes/classes/' . $class . '.php';
+    $filepath = __DIR__ . '/includes/classes/' . $class . '.php';   // Build the file path
     $filepath = str_replace("/", DIRECTORY_SEPARATOR, $filepath);
     if (file_exists($filepath)) {
         require_once $filepath;
     }
 });
 
-// Level 1
+// Level 1 (root) i want to comment these out because they make no sense on the local host
 $clothing = new OOP2\clothing("Clothing", "every coloured", "all sizes");
 
-// Level 2
+// Level 2 (child) i want to comment these out because they make no sense on the local host
 $tops = new OOP2\tops("Tops", "every coloured", "all sizes");
 $bottoms = new OOP2\bottoms("Bottoms", "every coloured", "all sizes");
 $footwear = new OOP2\footwear("Footwear", "every coloured", "all sizes");
 
-// Level 3 
+// Level 3 (grandchild) 
 $tshirt = new OOP2\tshirt();
 $jacket = new OOP2\jacket();
 $jeans = new OOP2\jeans();
@@ -36,7 +36,7 @@ $sneakers = new OOP2\sneakers();
         <h1>The Clothing Pyramid</h1>
     </header>
     <main>
-
+         <!-- Clothing PHP -->
         <div id="clothing-con">
             <h2>Clothing</h2>
             <p>
@@ -49,7 +49,7 @@ $sneakers = new OOP2\sneakers();
                 <?php echo $clothing->describe(); ?>
             </p>
         </div>
-
+        <!-- Tops PHP -->
         <div id="tops-con">
             <h2>Tops</h2>
             <p>
@@ -61,7 +61,7 @@ $sneakers = new OOP2\sneakers();
             <p>
                 <?php echo $tops->describe(); ?>
             </p>
-
+        <!-- T-Shirt PHP -->
             <div id="tshirt-con">
                 <h3>T-Shirt</h3>
                 <p>
@@ -74,7 +74,7 @@ $sneakers = new OOP2\sneakers();
                     <?php echo $tshirt->describe(); ?>
                 </p>
             </div>
-
+        <!-- Jacket PHP -->
             <div id="jacket-con">
                 <h3>Jacket</h3>
                 <p>
@@ -91,7 +91,7 @@ $sneakers = new OOP2\sneakers();
                 </p>
             </div>
         </div>
-
+        <!-- Bottoms PHP -->
         <div id="bottoms-con">
             <h2>Bottoms</h2>
             <p>
@@ -103,7 +103,7 @@ $sneakers = new OOP2\sneakers();
             <p>
                 <?php echo $bottoms->describe(); ?>
             </p>
-
+        <!-- Jeans PHP -->
             <div id="jeans-con">
                 <h3>Jeans</h3>
                 <p>
@@ -120,7 +120,7 @@ $sneakers = new OOP2\sneakers();
                 </p>
             </div>
         </div>
-
+        <!-- Footwear PHP -->
         <div id="footwear-con">
             <h2>Footwear</h2>
             <p>
@@ -132,7 +132,7 @@ $sneakers = new OOP2\sneakers();
             <p>
                 <?php echo $footwear->describe(); ?>
             </p>
-
+        <!-- Sneakers PHP -->
             <div id="sneakers-con">
                 <h3>Sneakers</h3>
                 <p>

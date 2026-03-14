@@ -6,6 +6,8 @@ namespace OOP2;
 
 class sneakers extends footwear
 {
+    // hardcodes the sneakers and pushes it in the footwear
+
     public function __construct()
     {
         $name = "Sneakers";
@@ -13,6 +15,8 @@ class sneakers extends footwear
         $size = "10";
         parent::__construct($name, $colour, $size);
     }
+
+    // All of this gets overides the methods on clothing
 
     public function wear(): string
     {

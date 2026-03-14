@@ -17,6 +17,8 @@ class clothing
         $this->size = $size;
     }
 
+    // Sets the vairables for the clothing
+
     public function getName(): string
     {
         return $this->name;
@@ -31,6 +33,8 @@ class clothing
     {
         return $this->size;
     }
+
+    // describes the wear, fold and describe
 
     public function wear(): string
     {

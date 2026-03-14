@@ -6,7 +6,8 @@ namespace OOP2;
 
 class jacket extends tops
 {
-    
+    // hardcodes the jacket and pushes it in the tops
+
     use hasPockets; // this is where the trait is held 
 
     public function __construct()
@@ -16,6 +17,8 @@ class jacket extends tops
         $size = "Large";
         parent::__construct($name, $colour, $size);
     }
+
+     // All of this overides the methods on clothing
 
     public function wear(): string
     {
