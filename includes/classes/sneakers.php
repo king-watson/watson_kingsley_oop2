@@ -4,7 +4,7 @@ namespace OOP2;
 
 // Sneakers = Level 3. Extends from the footwear category
 
-class Sneakers extends Footwear
+class sneakers extends footwear
 {
     public function __construct()
     {

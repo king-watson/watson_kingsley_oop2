@@ -4,7 +4,7 @@ namespace OOP2;
 
 // T-Shirt = Level Three. Extends from the tops category
 
-class TShirt extends Tops
+class tshirt extends tops
 {
     public function __construct()
     {

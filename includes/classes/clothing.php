@@ -4,7 +4,7 @@ namespace OOP2;
 
 // Clothing = Level 1. Root of the project
 
-class Clothing
+class clothing
 {
     protected string $name;
     protected string $colour;

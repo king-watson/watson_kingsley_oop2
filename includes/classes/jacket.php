@@ -4,10 +4,10 @@ namespace OOP2;
 
 // Jacket = Level 3. Extends from the tops category
 
-class Jacket extends Tops
+class jacket extends tops
 {
     
-    use HasPockets; // this is where the trait is held 
+    use hasPockets; // this is where the trait is held 
 
     public function __construct()
     {
