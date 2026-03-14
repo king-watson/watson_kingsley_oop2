@@ -6,6 +6,7 @@ namespace OOP2;
 
 class jeans extends bottoms
 {
+    // hardcodes the jeans and pushes it in the bottoms
 
     use hasPockets; // this is where the trait is held 
     
@@ -16,6 +17,8 @@ class jeans extends bottoms
         $size = "Medium";
         parent::__construct($name, $colour, $size);
     }
+
+    // All of this overides the methods on clothing
 
     public function wear(): string
     {

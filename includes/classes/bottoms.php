@@ -6,6 +6,8 @@ namespace OOP2;
 
 class bottoms extends clothing
 {
+    //  Sets the type to bottoms and passes info to the clothing
+
     protected string $type;
 
     public function __construct(string $name, string $colour, string $size)
@@ -18,6 +20,8 @@ class bottoms extends clothing
     {
         return $this->type;
     }
+
+     // All of this overides the methods on clothing
 
     public function wear(): string
     {

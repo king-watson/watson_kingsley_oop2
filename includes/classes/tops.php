@@ -8,6 +8,8 @@ class tops extends clothing
 {
     protected string $type;
 
+    //  Sets the type to top and passes info to the clothing
+
     public function __construct(string $name, string $colour, string $size)
     {
         $this->type = "Top";
@@ -18,6 +20,8 @@ class tops extends clothing
     {
         return $this->type;
     }
+
+     // All of this gets overides the methods on clothing
 
     public function wear(): string
     {
