@@ -4,7 +4,7 @@ namespace OOP2;
 
 // Footwear = Level Two. Extends the clothing thing
 
-class Footwear extends Clothing
+class footwear extends clothing
 {
     protected string $type;
 
